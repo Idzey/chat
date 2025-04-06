@@ -3,11 +3,8 @@ import { EllipsisVertical, Mic, Plus, Search, Smile, Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Textarea } from "../ui/textarea";
-import useUser from "@/hooks/useUser";
 
 export default function Chat() {
-  const { user } = useUser(); 
-  console.log("user", user); 
   
   return (
     <div className="bg-backgroud_white h-full flex flex-col justify-between">
